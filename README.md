@@ -7,9 +7,10 @@ This repository contains a complete full-stack e-commerce application built to d
 The application is divided into two main components:
 
 ### Backend (`/e-commerce-assignment-backend`)
+
 - **Framework**: NestJS (TypeScript)
 - **Database**: PostgreSQL (via TypeORM)
-- **Features**: 
+- **Features**:
   - Clean, modular, domain-driven design (Products, Auth, Cart, Categories).
   - High-performance database-level pagination, search, and filtering via TypeORM QueryBuilder.
   - JWT Authentication for secure, stateless user sessions.
@@ -17,6 +18,7 @@ The application is divided into two main components:
   - Swagger OpenAPI integration for endpoint documentation.
 
 ### Frontend (`/e-commerce-assignment-frontend`)
+
 - **Framework**: Next.js 15 (App Router)
 - **Styling**: CSS Modules for strict component scoping and a custom design system.
 - **State Management**: Zustand (lightweight, performant global store for Auth and Cart syncing).
@@ -31,10 +33,12 @@ The application is divided into two main components:
 ## 🚀 Setup Instructions
 
 ### Prerequisites
+
 - Node.js (v18+)
 - Docker (for the database)
 
 ### 1. Backend & Database Setup
+
 1. Navigate to the backend folder:
    ```bash
    cd e-commerce-assignment-backend
@@ -53,9 +57,10 @@ The application is divided into two main components:
    ```bash
    npm run start:dev
    ```
-*The backend API will run on http://localhost:5001. You can view the Swagger Docs at http://localhost:5001/api/docs.*
+   _The backend API will run on http://localhost:5001. You can view the Swagger Docs at http://localhost:5001/api._
 
 ### 2. Frontend Setup
+
 1. Open a new terminal and navigate to the frontend folder:
    ```bash
    cd e-commerce-assignment-frontend
@@ -68,7 +73,7 @@ The application is divided into two main components:
    ```bash
    npm run dev
    ```
-*The frontend will be accessible at http://localhost:3000.*
+   _The frontend will be accessible at http://localhost:3000._
 
 ---
 
